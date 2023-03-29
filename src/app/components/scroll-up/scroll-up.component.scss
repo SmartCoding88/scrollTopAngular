@@ -1,0 +1,35 @@
+
+.scroll_up {
+
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+
+  button{
+    background-color: transparent;
+    border: 1px solid teal;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: teal;
+    &:hover, &:focus{
+      background-color: teal;
+      color: #fff;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+
+ }
+
+
+
+ .show_scroll_up {
+
+    opacity: 1;
+    transition: all .2s ease-in-out;
+
+ }
